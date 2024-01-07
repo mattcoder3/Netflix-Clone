@@ -15,24 +15,108 @@
                 <img src="images/logo.svg" alt="Netflix logo" class="header__logo">
             </div>
             <div class="header__options">
-                <i class="fa-brands fa-chromecast header__icon"></i>
-                <i class="fa-solid fa-magnifying-glass header__icon"></i>
+                <i class="fa-brands fa-chromecast header__icon active"></i>
+                <i class="fa-solid fa-magnifying-glass header__icon active"></i>
             </div>
         </nav>
     </header>
 
     <!-- `chips` block -->
-    <div class="chips">
-        <div class="chips__chip">
-            <p class="chips__text">Series</p>
+    <main class="wrapper">
+        <div class="chips">
+            <div class="chips__chip">
+                <p class="chips__text">Series</p>
+            </div>
+            <div class="chips__chip">
+                <p class="chips__text">Películas</p>
+            </div>
+            <div class="chips__chip chips__chip_icon">
+                <p class="chips__text">Categorías</p>
+                <i class="fa-solid fa-angle-down chips__icon"></i>
+            </div>
         </div>
-        <div class="chips__chip">
-            <p class="chips__text">Películas</p>
+
+        <!-- `featured` block -->
+        <div class="featured">
+            <div class="featured__categories">
+                <p class="featured__category">
+                    Emocionante
+                </p>
+                <p class="featured__category">
+                    De intriga y acción
+                </p>
+                <p class="featured__category">
+                    Búsqueda de dinero
+                </p>
+            </div>
+            <div class="featured__buttons">
+                <div class="featured__button active">
+                    <i class="fa-solid fa-play featured__button-icon"></i>
+                    <p class="featured__button-text">Reproducir</p>
+                </div>
+                <div class="featured__button featured__button_transparent active">
+                    <i class="fa-solid fa-plus featured__button-icon"></i>
+                    <p class="featured__button-text">Mi lista</p>
+                </div>
+            </div>
         </div>
-        <div class="chips__chip chips__chip_icon">
-            <p class="chips__text">Categorías</p>
-            <i class="fa-solid fa-angle-down chips__icon"></i>
+
+        <!-- `continue-watching` block -->
+        <div class="continue-watching">
+            <p class="continue-watching__text">Continuar viendo contenido de Juan Cruz</p>
+            <div class="continue-watching__content">
+                <div class="continue-watching__media poster-1">
+                    <div class="continue-watching__play">
+                        <i class="fa-solid fa-play continue-watching__play-button"></i>
+                    </div>
+                    <p class="continue-watching__info">T3:E7</p>
+                    <div class="continue-watching__buttons">
+                        <i class="fa-solid fa-circle-info continue-watching__icon"></i>
+                        <i class="fa-solid fa-ellipsis-vertical continue-watching__icon"></i>
+                    </div>
+                </div>
+                <div class="continue-watching__media poster-2">
+                    <div class="continue-watching__play">
+                        <i class="fa-solid fa-play continue-watching__play-button"></i>
+                    </div>
+                    <p class="continue-watching__info">Episodio 9</p>
+                    <div class="continue-watching__buttons">
+                        <i class="fa-solid fa-circle-info continue-watching__icon"></i>
+                        <i class="fa-solid fa-ellipsis-vertical continue-watching__icon"></i>
+                    </div>
+                </div>
+                <div class="continue-watching__media poster-3">
+                    <div class="continue-watching__play">
+                        <i class="fa-solid fa-play continue-watching__play-button"></i>
+                    </div>
+                    <p class="continue-watching__info">T17:E407</p>
+                    <div class="continue-watching__buttons">
+                        <i class="fa-solid fa-circle-info continue-watching__icon"></i>
+                        <i class="fa-solid fa-ellipsis-vertical continue-watching__icon"></i>
+                    </div>
+                </div>
+                <div class="continue-watching__media poster-4">
+                    <div class="continue-watching__play">
+                        <i class="fa-solid fa-play continue-watching__play-button"></i>
+                    </div>
+                    <p class="continue-watching__info">T3:E7</p>
+                    <div class="continue-watching__buttons">
+                        <i class="fa-solid fa-circle-info continue-watching__icon"></i>
+                        <i class="fa-solid fa-ellipsis-vertical continue-watching__icon"></i>
+                    </div>
+                </div>
+                <div class="continue-watching__media poster-5">
+                    <div class="continue-watching__play">
+                        <i class="fa-solid fa-play continue-watching__play-button"></i>
+                    </div>
+                    <p class="continue-watching__info">T3:E7</p>
+                    <div class="continue-watching__buttons">
+                        <i class="fa-solid fa-circle-info continue-watching__icon"></i>
+                        <i class="fa-solid fa-ellipsis-vertical continue-watching__icon"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 </html>
